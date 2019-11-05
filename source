@@ -1,0 +1,17 @@
+#!/bin/sh
+
+HOST="XXX.XXX.XXX.XXX"
+USER="Username"
+PASS="Password"
+while read line; do
+  echo "reading: ${line}"
+/usr/local/bin/lftp -u ${USER},${PASS} sftp://${HOST} <<EOF
+cd /your/upload/path
+put "$line"
+echo "connected"
+bye
+EOF
+url=$(basename $line)
+done
+printf https://yourdomain.com/yourpath/$url | pbcopy
+osascript -e 'display notification " File '$url'  Uploaded Successful" with title "Uploaded"'
