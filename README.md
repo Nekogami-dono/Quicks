@@ -7,11 +7,13 @@ Install lftp
 brew install lftp
 ```
 Download the workflow and change the variables:
-```HOST="XXX.XXX.XXX.XXX"
+```
+HOST="XXX.XXX.XXX.XXX"
 USER="Username"
 PASS="Password"
 ```
   And also change: 
 ```
+cd /your/upload/path
 printf https://yourdomain.com/yourpath/$url | pbcopy
 ```
