@@ -1,11 +1,13 @@
 # Quicks version 1.0
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nekogami-dono/quicks)
+
 SFTP Upload Script for MacOS
 
 This script automaticaly uploads your file to your Server via SFTP.
 ## Install Guide
 First of all install lftp!  
 ```
-brew install lftp
+$ brew install lftp
 ```
 Start Automator, based in /Applications/  
 Create a new Automator document and then choose quick action  
