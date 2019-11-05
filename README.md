@@ -9,7 +9,7 @@ brew install lftp
 ```
 Start Automator, based in /Applications/  
 Create a new Automator document and then choose Service
-![Service](https://octodex.github.com/images/yaktocat.png)
+![Service](https://raw.githubusercontent.com/Nekogami-dono/Quicks/master/service.png)
 
 Download the source and change the variables:
 ```
