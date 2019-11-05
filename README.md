@@ -1,8 +1,8 @@
 # Quicks version 1.0
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nekogami-dono/quicks)
-![Follower]https://img.shields.io/github/followers/nekogami-dono?style=social
-![Platform]https://img.shields.io/badge/platform-macos%2010.15-blue
-![Twitter Follower]https://img.shields.io/twitter/follow/Kenny94_?style=social
+![Follower](https://img.shields.io/github/followers/nekogami-dono?style=social)
+![Platform](https://img.shields.io/badge/platform-macos%2010.15-blue)
+![Twitter Follower](https://img.shields.io/twitter/follow/Kenny94_?style=social)
 
 
 SFTP Upload Script for MacOS
